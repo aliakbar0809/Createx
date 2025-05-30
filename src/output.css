@@ -554,6 +554,18 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.left-\[60\%\] {
+  left: 60%;
+}
+
+.top-\[130\%\] {
+  top: 130%;
+}
+
 .m-\[20px\] {
   margin: 20px;
 }
@@ -570,6 +582,11 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .my-\[10px\] {
@@ -604,6 +621,10 @@ video {
 
 .mb-\[50px\] {
   margin-bottom: 50px;
+}
+
+.ml-\[-100px\] {
+  margin-left: -100px;
 }
 
 .ml-\[15px\] {
@@ -692,6 +713,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[50\] {
+  width: 50;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 @keyframes bounce {
@@ -826,6 +859,10 @@ video {
   background-color: rgb(255 63 58 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FFFFFF33\] {
+  background-color: #FFFFFF33;
+}
+
 .bg-blue-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
@@ -874,10 +911,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#FFFFFF33\] {
-  background-color: #FFFFFF33;
 }
 
 .bg-gradient-to-r {
@@ -993,28 +1026,36 @@ video {
   padding-bottom: 30px;
 }
 
+.pb-\[50px\] {
+  padding-bottom: 50px;
+}
+
 .pl-\[10px\] {
   padding-left: 10px;
+}
+
+.pr-\[100px\] {
+  padding-right: 100px;
 }
 
 .pr-\[30px\] {
   padding-right: 30px;
 }
 
-.pt-\[10px\] {
-  padding-top: 10px;
-}
-
-.pr-\[\] {
-  padding-right: ;
+.pr-\[60\%\] {
+  padding-right: 60%;
 }
 
 .pr-\[60px\] {
   padding-right: 60px;
 }
 
-.pr-\[100px\] {
-  padding-right: 100px;
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.pr-\[50\%\] {
+  padding-right: 50%;
 }
 
 .text-center {
@@ -1144,6 +1185,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1214,6 +1259,10 @@ video {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:ml-\[-100px\] {
+    margin-left: -100px;
   }
 
   .md\:block {
@@ -1296,6 +1345,10 @@ video {
 
   .md\:pr-\[150px\] {
     padding-right: 150px;
+  }
+
+  .md\:pr-\[60\%\] {
+    padding-right: 60%;
   }
 
   .md\:text-start {
